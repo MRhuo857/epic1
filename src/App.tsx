@@ -8,7 +8,6 @@ import {
 import Header from './component/Header';
 import Footer from './component/Footer';
 import Loading from './component/Loading';
-import styled from 'styled-components';
 
 const Home=lazy(()=>import('./pages/Home'))
 const About=lazy(()=>import('./pages/About'))
